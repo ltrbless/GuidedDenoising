@@ -1,0 +1,26 @@
+CREATE .\libOpenMesh.a
+ADDMOD release\BinaryHelper.o
+ADDMOD release\IOManager.o
+ADDMOD release\OMFormat.o
+ADDMOD release\ArrayKernel.o
+ADDMOD release\BaseKernel.o
+ADDMOD release\PolyConnectivity.o
+ADDMOD release\TriConnectivity.o
+ADDMOD release\omstream.o
+ADDMOD release\BaseProperty.o
+ADDMOD release\Endian.o
+ADDMOD release\RandomNumberGenerator.o
+ADDMOD release\BaseReader.o
+ADDMOD release\OBJReader.o
+ADDMOD release\OFFReader.o
+ADDMOD release\OMReader.o
+ADDMOD release\PLYReader.o
+ADDMOD release\STLReader.o
+ADDMOD release\BaseWriter.o
+ADDMOD release\OBJWriter.o
+ADDMOD release\OFFWriter.o
+ADDMOD release\OMWriter.o
+ADDMOD release\PLYWriter.o
+ADDMOD release\STLWriter.o
+ADDMOD release\VTKWriter.o
+SAVE

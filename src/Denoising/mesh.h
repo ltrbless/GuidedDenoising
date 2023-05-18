@@ -10,6 +10,7 @@ struct MyTraits : OpenMesh::DefaultTraits
   // Let Point and Normal be a vector of doubles
   typedef OpenMesh::Vec3d Point;
   typedef OpenMesh::Vec3d Normal;
+  int mark;
 
   // The default 1D texture coordinate type is float.
   typedef double  TexCoord1D;

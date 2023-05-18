@@ -191,7 +191,7 @@ void ParameterSetWidget::showWidget()
     this->setWindowTitle(parameter_set_->getLabel());
     Label_->setText(parameter_set_->getIntroduction());
 
-    QGroupBox *GroupBox = new QGroupBox("Setting");
+    QGroupBox *GroupBox = new QGroupBox("Setting Parameters");
     VBoxLayout_Setting_ = new QVBoxLayout(GroupBox);
     QVector<Parameter *> all_parameters = parameter_set_->getAllParameters();
     for(int i = 0; i < (int)all_parameters.size(); i++){
